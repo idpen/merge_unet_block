@@ -17,7 +17,7 @@ python merge_unet_blocks.py xxx1.safetensors xxx2.safetensors \
         --time_embed "0:0.5, 2:0.3" \
         --dump_path ./merged.safetensors
 ```
-## or (same as above):
+### or (same as above):
 ```python
 python merge_unet_blocks.py xxx1.safetensors xxx2.ckpt \
         --base_alpha 0.5 \
@@ -28,7 +28,7 @@ python merge_unet_blocks.py xxx1.safetensors xxx2.ckpt \
         --time_embed "2:0.3" \
         --dump_path ./merged.safetensors
 ```
-## or just (merge all blocks with base_alpha):
+### or just (merge all blocks with base_alpha):
 ```python
 python merge_unet_blocks.py xxx1.ckpt xxx2.ckpt \
         --base_alpha 0.5 \
