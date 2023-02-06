@@ -1,5 +1,5 @@
 # merge_unet_block
-a python script to merge stable diffusion's Unet blocks.
+a python script to merge stable diffusion's Unet blocks.  
 you should run the script with Python3 env.
 ## Install 
 ```
