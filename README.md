@@ -1,7 +1,7 @@
 # merge_unet_block
 a python script to merge stable diffusion's Unet blocks.
-
-## install 
+you should run the script with Python3 env.
+## Install 
 ```
 pip install safetensors
 # pip install pytorch
