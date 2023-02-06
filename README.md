@@ -7,7 +7,9 @@ pip install safetensors
 # pip install pytorch
 ```
 
-## For example:
+## For example
+### full Unet layer with index and alpha 
+the alpha value is for "xxx2.safetensors".
 ```python
 python merge_unet_blocks.py xxx1.safetensors xxx2.safetensors \
         --input_blocks "0:0.5, 1:0.5, 2:0.5, 3:0.6, 4:0.5, 5:0.5, 6:0.5, 7:0.5, 8:0.5, 9:0.5, 10:0.5, 11:0.5" \
